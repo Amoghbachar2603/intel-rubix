@@ -13,9 +13,9 @@ def index():
 @app.route('/api/ask', methods=['POST'])
 def ask_llm():
     question = request.json['question']
-    # Process and format the question for Mistral API
+    
     response = mistralai.generate_text(question)
-    # Process and format the LLM's response
+
     return jsonify({'response': response})
 
 @socketio.on('connect')
