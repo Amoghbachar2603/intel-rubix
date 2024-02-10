@@ -8,7 +8,7 @@ This project aims to create a chatbot that serves as an interface between users 
 
 Technologies:
 
-Dataset: [dermnet from kaggle]
+Dataset: [dermnet from kaggle]Link-to-dataset:(https://www.kaggle.com/datasets/shubhamgoel27/dermnet)
 DNN Model: [ResNet50 ]
 LLM: [mistrail]
 Intel Cloud Services : [onednn]
